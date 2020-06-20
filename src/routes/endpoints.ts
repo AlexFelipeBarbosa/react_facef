@@ -3,6 +3,7 @@ import Sobre from '../containers/sobre';
 import Home from '../containers/home';
 import Combustivel from '../containers/combustivel';
 import StarWars from '../containers/star-wars';
+import StarWarsDetails from '../containers/star-wars-details';
 
 const publicUrl = process.env.PUBLIC_URL;
 
@@ -25,5 +26,12 @@ export const endpoints: EndPointsProps[] = [
     component: StarWars,
     exact: true,
   },
+
+  {
+    path: `${publicUrl}/star-wars/id`,
+    component: StarWarsDetails,
+    exact: true,
+  },
+
   { path: `${publicUrl}/sobre`, name: 'Sobre', component: Sobre, exact: true },
 ];
