@@ -28,7 +28,7 @@ export const endpoints: EndPointsProps[] = [
   },
 
   {
-    path: `${publicUrl}/star-wars/id`,
+    path: `${publicUrl}/star-wars/:id`,
     component: StarWarsDetails,
     exact: true,
   },
