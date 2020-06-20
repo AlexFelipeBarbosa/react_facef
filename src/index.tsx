@@ -6,7 +6,7 @@ import './apis/axios.api';
 import * as serviceWorker from './serviceWorker';
 import * as store from './mobx';
 
-import Loading from './components/loadding';
+import Loading from './components/loading';
 import { Provider } from 'mobx-react';
 import React from 'react';
 import ReactDOM from 'react-dom';
