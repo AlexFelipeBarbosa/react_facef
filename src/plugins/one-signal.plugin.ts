@@ -1,4 +1,4 @@
-import { configs } from '../configs';
+import { configs } from './../configs/index';
 import OneSignal from 'react-onesignal';
 
 const options = {
