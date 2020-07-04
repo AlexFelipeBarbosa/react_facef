@@ -27,16 +27,15 @@ export default class Sobre extends React.Component<Props> {
                         {' '}
                         Desenvolvido por: Alex Felipe Barbosa
                       </a>
-                      <strong>
+                      <p>
                         Pós Graduação: Desenvolvimento de Aplicações Web e
                         Móveis Escaláveis{' '}
-                      </strong>
-                      <br /> <br />
-                      <strong>
-                        Professor: Antonio Carlos Júnior
-                      </strong> <br /> <br />
-                      <strong>Julho/2020</strong>
-                      <h3>Contatos: </h3>
+                      </p>
+                      <p>Professor: Antonio Carlos Júnior</p>
+                      <p>Julho/2020</p>
+                      <h3>
+                        <strong>Contatos:</strong>{' '}
+                      </h3>
                     </h2>
                     <h3>
                       <a href="https://github.com/AlexFelipeBarbosa"> GitHub</a>
