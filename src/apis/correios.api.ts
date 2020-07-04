@@ -22,7 +22,7 @@ export const getZipCode = async (zipCode: number) => {
     },
   });
 
-  if (request.data.resultado !== '1') {
+  if (request.data.resultado === '0') {
     throw new Error('Cep não encontrado');
   }
   return request;
