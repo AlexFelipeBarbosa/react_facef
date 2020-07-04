@@ -31,7 +31,7 @@ export default class Sobre extends React.Component<Props> {
                         Pós Graduação: Desenvolvimento de Aplicações Web e
                         Móveis Escaláveis{' '}
                       </p>
-                      <p>Professor: Antonio Carlos Júnior</p>
+                      <p>Professor: Antonio Carlos Nascimento Júnior</p>
                       <p>Julho/2020</p>
                       <h3>
                         <strong>Contatos:</strong>{' '}
