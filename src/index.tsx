@@ -1,6 +1,7 @@
 import 'semantic-ui-css/semantic.min.css';
 import './index.css';
 import './plugins/sentry.plugins';
+import './plugins/one-signal.plugin';
 import './apis/axios.api';
 
 import * as serviceWorker from './serviceWorker';
