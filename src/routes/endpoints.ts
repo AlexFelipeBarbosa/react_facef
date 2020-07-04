@@ -7,6 +7,7 @@ import StarWarsDetails from '../containers/star-wars-details';
 import Cache from '../containers/cache';
 import Tags from '../containers/tags';
 import Register from '../containers/register';
+import Corona from '../containers/corona';
 
 const publicUrl = process.env.PUBLIC_URL;
 
@@ -42,6 +43,12 @@ export const endpoints: EndPointsProps[] = [
     path: `${publicUrl}/register`,
     name: 'Register',
     component: Register,
+    exact: true,
+  },
+  {
+    path: `${publicUrl}/corona`,
+    name: 'Corona',
+    component: Corona,
     exact: true,
   },
   { path: `${publicUrl}/sobre`, name: 'Sobre', component: Sobre, exact: true },

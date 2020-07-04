@@ -22,7 +22,17 @@ export default class Sobre extends React.Component<Props> {
                 <Header.Content>
                   Sobre
                   <Header.Subheader>
-                    Desenvolvido por: Alex Felipe Barbosa
+                    <h3>Desenvolvido por: Alex Felipe Barbosa</h3>
+                    <br />
+                    <strong>
+                      Pós Graduação: Desenvolvimento de Aplicações Web e Móveis
+                      Escaláveis{' '}
+                    </strong>
+                    <br /> <br />
+                    <strong>
+                      Professor: Antonio Carlos Júnior
+                    </strong> <br /> <br />
+                    <strong>Julho/2020</strong>
                   </Header.Subheader>
                 </Header.Content>
               </Header>
